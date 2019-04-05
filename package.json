@@ -1,18 +1,15 @@
 {
-  "name": "node-rtsp-stream",
-  "version": "0.0.5",
+  "name": "leufu-node-rtsp-stream",
+  "private": false,
+  "version": "0.0.61",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "coffee --compile --output ./lib ./src",
-    "prepublish": "npm run test && npm run build",
-    "test": "npm run build && mocha test/*.coffee"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/kyriesent/node-rtsp-stream.git"
+    "url": "https://github.com/PabloSzx/node-rtsp-stream.git"
   },
-  "author": "David Jsa <david@jsa.me>",
+  "author": "PabloSzx",
   "license": "MIT",
   "devDependencies": {
     "coffeescript": "^2.3.2",
